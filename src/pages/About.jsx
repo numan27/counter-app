@@ -4,11 +4,10 @@ import AppLayout from '../components/Layout/AppLayout'
 const About = () => {
 
   const galleryData = [
-    { title: "Cyan", content: "This is a Cyan Box", background: "cyan", colorValue: 700 },
-    { title: "Cyan", content: "This is a Cyan Box", background: "stone", colorValue: 400 },
-    { title: "Cyan", content: "This is a Cyan Box", background: "red", colorValue: 600 },
-    { title: "Cyan", content: "This is a Cyan Box", background: "blue", colorValue: "200" },
-    { title: "Cyan", content: "This is a Cyan Box", background: "green", colorValue: "800" },
+    { title: "Color Gallery", content: "This is a Stone Box", background: "stone", colorValue: 400 },
+    { title: "Color Gallery", content: "This is a Red Box", background: "red", colorValue: 600 },
+    { title: "Color Gallery", content: "This is a Blue Box", background: "blue", colorValue: "200" },
+    { title: "Color Gallery", content: "This is a Green Box", background: "green", colorValue: "800" },
   ]
   return (
     <AppLayout>
